@@ -96,6 +96,14 @@ public class RootLayoutController {
             mainApp.savePersonDataToFile(file);
         }
     }
+    
+    /**
+     * Abre as estatísticas de aniversário.
+     */
+    @FXML
+    private void handleShowBirthdayStatistics() {
+      mainApp.showBirthdayStatistics();
+    }
 
     /**
      * Abre uma janela Sobre.
