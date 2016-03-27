@@ -236,7 +236,6 @@ public class MainApp extends Application {
                               + file.getPath()).showException(e);
         }
     }
-
     /**
      * Salva os dados da pessoa atual no arquivo especificado.
      * 
